@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FUTSALKEN</string>
+    <string name="name">name</string>
+    <string name="address">address</string>
+    <string name="phone">phone</string>
+    // TODO: 22/02/18
+    <string name="pic">Galeri</string>
+    <string name="comment">Comment</string>
+</resources>

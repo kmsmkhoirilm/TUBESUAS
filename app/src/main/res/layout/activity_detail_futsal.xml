@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rumput"
+    android:padding="16dp"
+    tools:context="com.example.futsalken.DetailFutsalActivity">
+
+    <TextView
+        android:text="Nama"
+        android:id="@+id/tvNama"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/digitalt"
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Address"
+        android:id="@+id/tvAddress"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:fontFamily="@font/digitalt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/digitalt"
+        android:textSize="20sp"
+        android:text="Masukkan Nama"
+        android:textColor="#FFFFFF" />
+    <EditText
+        android:id="@+id/et_input1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/digitalt"
+        android:textSize="20sp"
+        android:text="Kritik dan Saran"
+        android:textColor="#FFFFFF" />
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/resetbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kirim"
+        android:backgroundTint="#FFFFFF"/>
+
+</LinearLayout>

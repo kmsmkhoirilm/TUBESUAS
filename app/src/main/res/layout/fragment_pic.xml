@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="65dp">
+    <TextView
+        android:id="@+id/tv_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. TIGER FUTSAL"
+        android:fontFamily="@font/digitalt"
+        android:textSize="40sp"
+        android:textColor="#008577"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:src="@drawable/tgr2" />
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:src="@drawable/tgr3" />
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:src="@drawable/tgr4jpg"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_pic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. BOOM FUTSAL"
+        android:fontFamily="@font/digitalt"
+        android:textSize="40sp"
+        android:textColor="#008577"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:src="@drawable/bom1" />
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:src="@drawable/bom2" />
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:src="@drawable/bom3"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_pic3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. FIRST FUTSAL"
+        android:fontFamily="@font/digitalt"
+        android:textSize="40sp"
+        android:textColor="#008577"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:src="@drawable/first1" />
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:src="@drawable/first2" />
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:src="@drawable/first3"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_pic4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4. JUPITER FUTSAL"
+        android:fontFamily="@font/digitalt"
+        android:textSize="40sp"
+        android:textColor="#008577"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:src="@drawable/jup1" />
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:src="@drawable/jup2" />
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:src="@drawable/jup3"/>
+    </LinearLayout>
+    <TextView
+    android:id="@+id/tv_pic5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="5. MOMEA FUTSAL"
+    android:fontFamily="@font/digitalt"
+    android:textSize="40sp"
+    android:textColor="#008577"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:src="@drawable/mom1" />
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:src="@drawable/mom2" />
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:src="@drawable/mom3"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_pic6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6. SWADAYA FUTSAL"
+        android:fontFamily="@font/digitalt"
+        android:textSize="40sp"
+        android:textColor="#008577"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:src="@drawable/swa1" />
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:src="@drawable/swa2" />
+        <ImageView
+            android:layout_marginLeft="4dp"
+            android:layout_width="115dp"
+            android:layout_height="150dp"
+            android:src="@drawable/swa3"/>
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
